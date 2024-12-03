@@ -1,27 +1,27 @@
 // Take an array of numbers and return the sum.
 
-// function sumArray(array) {
-//     sum = eval(array.join("+"));
-//     return sum;
-// }
-// let numbers = [5,3,8,96,55,37];
+function sumArray(array) {
+    sum = eval(array.join("+"));
+    return sum;
+}
+let numbers = [5,3,8,96,55,37];
 
-// let result = sumArray(numbers);
-// console.log(result);
+let result = sumArray(numbers);
+console.log(result);
 
 
 
 // Take an array of numbers and return the average.
 
-// let arrofnum = [5,3,8,96,55,37]
-// function findAverage(){
-//     let sum = 0;
-//     for (let i = 0; i < arrofnum.length; i++){
-//         sum += arrofnum[i];
-//     }
-//     console.log(`findAverage: ${sum/arrofnum.length}`)}
-// // console.log(`sum of Arrofnum: $ {sum}`);
-// findAverage();
+let arrofnum = [5,3,8,96,55,37]
+function findAverage(){
+    let sum = 0;
+    for (let i = 0; i < arrofnum.length; i++){
+        sum += arrofnum[i];
+    }
+    console.log(`findAverage: ${sum/arrofnum.length}`)}
+// console.log(`sum of Arrofnum: $ {sum}`);
+findAverage();
 
 
 
@@ -29,34 +29,34 @@
 
 // Take an array of strings and return the longest string.
 
-// let arrstring = ["red","blue","orange"]
-//     function longeststring(){
-//      let longeststring = "";
-//         for (let i = 0; i < arrstring.length; i++) {
-//         if (arrstring[i].length > longeststring.length) {
-//             longeststring = arrstring[i];
-//           }
-//         }
-//         console.log(`Longest string in the array:${longeststring}`);
-//     }
-//     longeststring();
+let arrstring = ["red","blue","orange"]
+    function longeststring(){
+     let longeststring = "";
+        for (let i = 0; i < arrstring.length; i++) {
+        if (arrstring[i].length > longeststring.length) {
+            longeststring = arrstring[i];
+          }
+        }
+        console.log(`Longest string in the array:${longeststring}`);
+    }
+    longeststring();
 
 
 
 // Take an array of strings, and a number and return an array of the strings that are longer than the given number. 
 
 
-// function stringslongerthan(stg, num) {
-//     let finalstg = [];
-//     for (let i = 0; i < stg.length; i++) {
-//       if (stg[i].length > num) {
-//         finalstg.push(stg[i]);
-//         console.log(`Array of strings that are longer than the given number: ${stg[i]}`);
-//       }
-//     }
-//     return finalstg;
-//   }
-//   stringslongerthan(["orange", "blue", "red"], 5);
+function stringslongerthan(stg, num) {
+    let finalstg = [];
+    for (let i = 0; i < stg.length; i++) {
+      if (stg[i].length > num) {
+        finalstg.push(stg[i]);
+        console.log(`Array of strings that are longer than the given number: ${stg[i]}`);
+      }
+    }
+    return finalstg;
+  }
+  stringslongerthan(["orange", "blue", "red"], 5);
 
 
 
